@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea746fa1dd42b524e8d1517a3280da41, type: 3}
+  m_Name: ShotgunStats
+  m_EditorClassIdentifier: 
+  _stats:
+    BulletPrefab: {fileID: 1950671669004815870, guid: 48c81550e785d7242a3531af7bbbbeff, type: 3}
+    Damage: 17
+    MaxBulletCount: 7
+    ShotCooldown: 0.9
