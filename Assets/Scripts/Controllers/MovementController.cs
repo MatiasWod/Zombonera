@@ -12,7 +12,7 @@ public class MovementController : MonoBehaviour, IMoveablle
     #region IMOVEABLE_METHODS
     public void Move(Vector3 direction)
     {
-        transform.position += direction * Time.deltaTime * Speed;
+        transform.position += direction * (Time.deltaTime * Speed);
     }
     #endregion
 }

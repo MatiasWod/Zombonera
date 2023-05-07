@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour, IBullet
     #endregion
 
     #region I_BULLET_METHODS
-    public void Travel() => transform.Translate(transform.forward * Time.deltaTime * Speed);
+    public void Travel() => transform.Translate(transform.forward * (Time.deltaTime * Speed));
 
     public void OnCollisionEnter(Collision collision)
     {
