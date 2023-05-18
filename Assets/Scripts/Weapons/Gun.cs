@@ -7,15 +7,17 @@ public class Gun : MonoBehaviour, IGun
     [SerializeField] protected GunStats _stats;
 
     #region GUN_PROPERTIES
-    [SerializeField] private int _currentBulletCount;
+    [SerializeField] protected int _currentBulletCount;
+    [SerializeField] protected float _currentShotCooldown;
     #endregion
 
     #region I_GUN_PROPERTIES
     public GameObject BulletPrefab => _stats.BulletPrefab;
+    public float BulletSpeed => _stats.BulletSpeed;
     public int Damage => _stats.Damage;
     public int MaxBulletCount => _stats.MaxBulletCount;
     public float ShotCooldown => _stats.ShotCooldown;
-    [SerializeField] protected float _currentShotCooldown;
+
     #endregion
 
     #region UNITY_EVENTS
@@ -36,9 +38,10 @@ public class Gun : MonoBehaviour, IGun
     {
         if (_currentShotCooldown <= 0)
         {
-            var bullet = Instantiate(BulletPrefab, transform.position, transform.rotation);
+            var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * 3 , transform.rotation);
             bullet.GetComponent<Bullet>().SetOwner(this);
             _currentShotCooldown = ShotCooldown;
+            _currentBulletCount--;
         }
     }
 

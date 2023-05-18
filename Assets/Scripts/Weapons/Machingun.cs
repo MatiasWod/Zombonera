@@ -13,13 +13,15 @@ public class Machingun : Gun
 
     public override void Attack()
     {
-        if (_currentShotCooldown <= 0)
+        if (_currentShotCooldown <= 0 && _currentBulletCount > 0)
         {
             for (int i = 0; i < _shotCount; i++)
             {
-                var bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * i * .6f, Quaternion.identity);
+                var bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * i * .6f, transform.rotation);
                 bullet.GetComponent<Bullet>().SetOwner(this);
+                _currentBulletCount--;
             }
+
             _currentShotCooldown = ShotCooldown;
         }
     }

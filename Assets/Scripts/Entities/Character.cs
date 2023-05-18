@@ -1,11 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class Character : MonoBehaviour
 {
     private MovementController _movementController;
-    [SerializeField] private Gun _gun;
+    private CameraController _cameraController;
+
 
     // BINDING ATTACK KEYS
     [SerializeField] private KeyCode _shoot = KeyCode.Mouse0;
@@ -22,6 +24,8 @@ public class Character : MonoBehaviour
     [SerializeField] private KeyCode _shotgun = KeyCode.Alpha3;
     [SerializeField] private List<Gun> _weapons;
 
+    [SerializeField] private Gun _gun;
+
     #region COMMANDS
     private CmdMovement _cmdMovementForward;
     private CmdMovement _cmdMovementBack;
@@ -32,18 +36,25 @@ public class Character : MonoBehaviour
     private CmdReload _cmdReload;
 
     private CmdApplyDamage _cmdApplyDamage;
+
+    private int _currentWeapon = 0;
+
     #endregion
 
     void Start()
     {
         _movementController = GetComponent<MovementController>();
+        _cameraController = GetComponent<CameraController>();
 
-        _cmdMovementForward = new CmdMovement(_movementController, transform.forward);
-        _cmdMovementBack = new CmdMovement(_movementController, -transform.forward);
-        _cmdMovementLeft = new CmdMovement(_movementController, -transform.right);
-        _cmdMovementRight = new CmdMovement(_movementController, transform.right);
+        _cmdMovementForward = new CmdMovement(_movementController, Vector3.forward);
+        _cmdMovementBack = new CmdMovement(_movementController, -Vector3.forward);
+        _cmdMovementLeft = new CmdMovement(_movementController, -Vector3.right);
+        _cmdMovementRight = new CmdMovement(_movementController, Vector3.right);
+
+        //_cmdRotateCamera = 
 
         _cmdApplyDamage = new CmdApplyDamage(GetComponent<IDamagable>(), 10);
+        
 
         ChangeWeapon(0);
     }
@@ -51,10 +62,12 @@ public class Character : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(_moveForward)) EventQueueManager.instance.AddEvent(_cmdMovementForward);
-        if (Input.GetKey(_moveBack)) EventQueueManager.instance.AddEvent(_cmdMovementBack);
-        if (Input.GetKey(_moveRight)) EventQueueManager.instance.AddEvent(_cmdMovementRight);
-        if (Input.GetKey(_MoveLeft)) EventQueueManager.instance.AddEvent(_cmdMovementLeft);
+        Vector3 movementDirection = Vector3.zero;
+        if (Input.GetKey(_moveForward)) _cmdMovementForward.Execute();
+        if (Input.GetKey(_moveBack)) _cmdMovementBack.Execute();
+        if (Input.GetKey(_moveRight)) _cmdMovementRight.Execute();
+        if (Input.GetKey(_MoveLeft)) _cmdMovementLeft.Execute();
+
 
         if (Input.GetKey(_shoot)) EventQueueManager.instance.AddEventToQueue(_cmdAttack);
         if (Input.GetKeyDown(_reload)) EventQueueManager.instance.AddEventToQueue(_cmdReload);
@@ -65,15 +78,26 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(_Pistol)) ChangeWeapon(0);
         if (Input.GetKeyDown(_machingun)) ChangeWeapon(1);
         if (Input.GetKeyDown(_shotgun)) ChangeWeapon(2);
+
+        float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime ;
+        float mouseY = Input.GetAxisRaw("Mouse Y") * Time.deltaTime ;
+        _cameraController.RotateCamera(mouseX, mouseY);
     }
 
     private void ChangeWeapon(int index)
     {
         foreach (var gun in _weapons) gun.gameObject.SetActive(false);
         _weapons[index].gameObject.SetActive(true);
-        
+
         _gun = _weapons[index];
         _cmdAttack = new CmdAttack(_gun);
         _cmdReload = new CmdReload(_gun);
+
+        _currentWeapon = index;
+    }
+
+    private void OnDestroy()
+    {
+        
     }
 }

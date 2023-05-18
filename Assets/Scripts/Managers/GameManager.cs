@@ -2,25 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] private bool _isGameOver = false;
-    [SerializeField] private bool _isVictory = false;
-    [SerializeField] private Text _gameoverMessage;
+    static public GameManager instance;
 
-    private void Start()
+    private void Awake()
     {
-        EventManager.instance.OnGameOver += OnGameOver;
-        _gameoverMessage.text = string.Empty;
+        if (instance != null) Destroy(this);
+        instance = this;
     }
 
-    private void OnGameOver(bool isVictory)
+    public void GameOver()
     {
-        _isGameOver = true;
-        _isVictory = isVictory;
-
-        _gameoverMessage.text = isVictory ? "Victoria" : "Derrota";
-        _gameoverMessage.color = isVictory ? Color.cyan : Color.red;
+        SceneManager.LoadScene((int)UnityScenes.End);
     }
 }

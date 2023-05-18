@@ -15,5 +15,9 @@ public class CmdMovement : ICommand
         _direction = direction;
     }
 
-    public void Execute() => _moveablle.Move(_direction);
+    public void Execute()
+    {
+        _moveablle.Move(_direction);
+   
+    }
 }

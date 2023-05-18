@@ -23,7 +23,14 @@ public class LifeController : MonoBehaviour, IDamagable
     public void TakeDamage(int damage)
     {
         _currentLife -= damage;
-        if (IsDead()) Die();
+        if (IsDead())
+        {
+            if (name == "Character")
+            {
+                GameManager.instance.GameOver();
+            }
+            Die();
+        }
     }
     #endregion
 
@@ -31,8 +38,7 @@ public class LifeController : MonoBehaviour, IDamagable
     private bool IsDead() => _currentLife <= 0;
 
     private void Die() 
-    { 
-        if(name == "Player") EventManager.instance.EventGameOver(false);
+    {
 
         Destroy(this.gameObject); 
     }

@@ -7,8 +7,9 @@ public class Bullet : MonoBehaviour, IBullet
     #region PRIVATE_PROPERTEIS
     [SerializeField] private IGun _owner;
     [SerializeField] private int _damage = 10;
-    [SerializeField] private float _speed = 10;
-    [SerializeField] private float _lifetime = 5;
+    [SerializeField] private float _speed = 1000;
+    [SerializeField] private float _lifetime = 2;
+    [SerializeField] private Vector3 _direction;
     [SerializeField] private List<int> _layerMasks;
     #endregion
 
@@ -17,6 +18,8 @@ public class Bullet : MonoBehaviour, IBullet
     public int Damage => _damage;
     public float Speed => _speed;
     public float LifeTime => _lifetime;
+
+    public Vector3 direction => _direction;
     #endregion
 
     #region I_BULLET_METHODS
@@ -24,13 +27,13 @@ public class Bullet : MonoBehaviour, IBullet
 
     public void OnCollisionEnter(Collision collision)
     {
-        if (_layerMasks.Contains(collision.gameObject.layer))
-        {
             IDamagable damagable = collision.gameObject.GetComponent<IDamagable>();
-            if (damagable != null) EventQueueManager.instance.AddEvent(new CmdApplyDamage(damagable, _damage));
-
+            if (damagable != null)
+            {
+                EventQueueManager.instance.AddEvent(new CmdApplyDamage(damagable, _damage));
+            }
             Destroy(this.gameObject);
-        }
+       
     }
     #endregion
 
@@ -38,10 +41,12 @@ public class Bullet : MonoBehaviour, IBullet
     void Start() 
     {
         // Rename a BulletDamage
-        _damage = _owner.Damage; 
+        _damage = _owner.Damage;
         // Agregar BulletSpeed en stats
-    }
+        _speed = _owner.BulletSpeed;
 
+    }
+    
     void Update()
     {
         Travel();

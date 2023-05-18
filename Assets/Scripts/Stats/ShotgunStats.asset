@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: ShotgunStats
   m_EditorClassIdentifier: 
   _stats:
-    BulletPrefab: {fileID: 1950671669004815870, guid: 48c81550e785d7242a3531af7bbbbeff, type: 3}
+    BulletPrefab: {fileID: 8152602535792779176, guid: 6281c152be5318a438b69bdafd603c29, type: 3}
+    BulletSpeed: 300
     Damage: 17
     MaxBulletCount: 7
-    ShotCooldown: 0.9
+    ShotCooldown: 0.75

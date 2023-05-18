@@ -27,7 +27,7 @@ public class EventQueueManager : MonoBehaviour
 
         foreach (var command in _eventQueue)
         {
-            command.Execute();
+            if (command != null) command.Execute();
         }
 
         _events.Clear();
