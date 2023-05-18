@@ -31,6 +31,7 @@ public class Bullet : MonoBehaviour, IBullet
             if (damagable != null)
             {
                 EventQueueManager.instance.AddEvent(new CmdApplyDamage(damagable, _damage));
+            Debug.Log("enter");
             }
             Destroy(this.gameObject);
        
