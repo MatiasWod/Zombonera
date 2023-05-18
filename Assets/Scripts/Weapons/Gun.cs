@@ -38,7 +38,7 @@ public class Gun : MonoBehaviour, IGun
     {
         if (_currentShotCooldown <= 0)
         {
-            var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * 3 , transform.rotation);
+            var bullet = Instantiate(BulletPrefab, transform.position +Random.insideUnitSphere * 1, transform.rotation);
             bullet.GetComponent<Bullet>().SetOwner(this);
             _currentShotCooldown = ShotCooldown;
             _currentBulletCount--;

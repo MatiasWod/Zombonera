@@ -9,7 +9,7 @@ public class CameraController : MonoBehaviour
     [SerializeField] public GameObject _camera;
     [SerializeField] public GameObject _character;
 
-    private float sens = 100;
+    private float sens = 200;
 
     private float yRotation;
     private float xRotation;
@@ -20,6 +20,12 @@ public class CameraController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+
+    private void OnDestroy()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     private void Update( )
