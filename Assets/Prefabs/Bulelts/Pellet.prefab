@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 924436901649285531}
   - component: {fileID: 5086530328407924349}
   - component: {fileID: 8820407045244926710}
-  - component: {fileID: -2367440360445293636}
+  - component: {fileID: -8894143423351636257}
   m_Layer: 0
   m_Name: Pellet
   m_TagString: Untagged
@@ -98,7 +98,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-2367440360445293636
+--- !u!114 &-8894143423351636257
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -107,11 +107,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8152602535792779176}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19d49cbc03d75cf49b07acf93089e5e6, type: 3}
+  m_Script: {fileID: 11500000, guid: 9296a21068a74894a9a418cf18c57ea9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _damage: 10
   _speed: 1000
-  _lifetime: 2
-  _direction: {x: 0, y: 0, z: 0}
+  _lifetime: 5
   _layerMasks: 
