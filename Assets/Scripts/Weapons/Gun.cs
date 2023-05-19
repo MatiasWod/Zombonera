@@ -18,13 +18,16 @@ public class Gun : MonoBehaviour, IGun
     public int MaxBulletCount => _stats.MaxBulletCount;
     public float ShotCooldown => _stats.ShotCooldown;
 
+    public AudioSource m_shootingSound;
+    
     #endregion
 
     #region UNITY_EVENTS
     private void Start()
     {
+        m_shootingSound = GetComponent<AudioSource>();
         _currentBulletCount = MaxBulletCount;
-        _currentShotCooldown = ShotCooldown;    
+        _currentShotCooldown = ShotCooldown;
     }
 
     private void Update()
@@ -38,6 +41,7 @@ public class Gun : MonoBehaviour, IGun
     {
         if (_currentShotCooldown <= 0)
         {
+            m_shootingSound.Play();
             var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * 3 , transform.rotation);
             bullet.GetComponent<Bullet>().SetOwner(this);
             _currentShotCooldown = ShotCooldown;
