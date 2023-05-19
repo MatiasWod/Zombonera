@@ -15,10 +15,11 @@ public class Machingun : Gun
     {
         if (_currentShotCooldown <= 0 && _currentBulletCount > 0)
         {
+            Debug.Log(transform.rotation.eulerAngles);
             m_shootingSound.Play();
             for (int i = 0; i < _shotCount; i++)
             {
-                var bullet = Instantiate(BulletPrefab, transform.position + Vector3.forward * i * 0.5f, transform.rotation);
+                var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * i, transform.rotation);
                 bullet.GetComponent<Bullet>().SetOwner(this);
                 
             }
