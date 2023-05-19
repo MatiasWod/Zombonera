@@ -32,6 +32,17 @@ public class LifeController : MonoBehaviour, IDamagable
             Die();
         }
     }
+
+    public void Heal(int amount)
+    {
+        if (_currentLife + amount >= MaxLife)
+        {
+            _currentLife = MaxLife;
+            return;
+        }
+        _currentLife += amount;
+        return;
+    }
     #endregion
 
     #region PRIVATE_METHODS

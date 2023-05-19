@@ -7,4 +7,5 @@ public interface IDamagable
     float CurrentLife { get; }
     float MaxLife { get; }
     void TakeDamage(int damage);
+    void Heal(int healAmount);
 }
