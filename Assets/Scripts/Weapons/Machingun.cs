@@ -17,8 +17,8 @@ public class Machingun : Gun
         {
             //Nescesary because ak textures are fliped and causes problem with the forward vector
             Quaternion aux = Quaternion.Euler(transform.rotation.eulerAngles - new Vector3(270, 90, 0));
-            Debug.Log(aux.eulerAngles);
-            Debug.Log(transform.rotation.eulerAngles - new Vector3(270, 90, 0));
+            /*Debug.Log(aux.eulerAngles);
+            Debug.Log(transform.rotation.eulerAngles - new Vector3(270, 90, 0));*/
             m_shootingSound.Play();
             for (int i = 0; i < _shotCount; i++)
             {

@@ -13,6 +13,7 @@ public class HealingTrigger : MonoBehaviour
             _currentCd -= Time.deltaTime;
         }
     }
+
     private void OnTriggerEnter(Collider other)
     {
 
