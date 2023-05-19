@@ -23,8 +23,7 @@ public class Bullet : MonoBehaviour, IBullet
     #endregion
 
     #region I_BULLET_METHODS
-    public void Travel() => transform.position += (transform.forward * (Time.deltaTime * Speed)); //Funciona la pistola nomas
-    // public void Travel() => transform.Translate(transform.forward * (Time.deltaTime * Speed)); con esto funciona la escopeta nomas
+    public virtual void Travel() => transform.position += (transform.forward * (Time.deltaTime * Speed)); 
 
     public void OnCollisionEnter(Collision collision)
     {
@@ -45,6 +44,7 @@ public class Bullet : MonoBehaviour, IBullet
         _damage = _owner.Damage;
         // Agregar BulletSpeed en stats
         _speed = _owner.BulletSpeed;
+        //Debug.Log(transform.forward);
 
     }
     

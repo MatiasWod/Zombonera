@@ -41,6 +41,7 @@ public class Gun : MonoBehaviour, IGun
     {
         if (_currentShotCooldown <= 0)
         {
+            Debug.Log(transform.rotation.eulerAngles);
             m_shootingSound.Play();
             var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * 2 , transform.rotation);
             bullet.GetComponent<Bullet>().SetOwner(this);
