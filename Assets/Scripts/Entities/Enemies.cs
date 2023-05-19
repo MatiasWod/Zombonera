@@ -34,13 +34,13 @@ public class Enemies : MonoBehaviour
         if(!navMeshAgent.isStopped){
             if (state == EnemyBehaviourStates.chasing)
             {
-                var ballObject = GameObject.Find("Character");
-                if(ballObject != null){
-                    characterLastPosition = ballObject.transform.position;
+                var CharacterObject = GameObject.Find("Character");
+                if(CharacterObject != null){
+                    characterLastPosition = CharacterObject.transform.position;
                     
                     if (Vector3.Distance(transform.position, characterLastPosition) <= 5) //Esto es el rango, frena un toque cuanto toca la pelota
                     {
-                        LeaveBallAloneForAMoment();
+                        LeaveCharacterAloneForAMoment();
                     }
                     else
                     {
@@ -71,11 +71,6 @@ public class Enemies : MonoBehaviour
     {
         navMeshAgent.speed = speed;
     }
-
-    public void Push(Vector3 direction, float force)
-    {
-        gameObject.GetComponent<Rigidbody>().AddForce(direction * force, ForceMode.Impulse);
-    }
     
     public void Stop()
     {
@@ -83,7 +78,7 @@ public class Enemies : MonoBehaviour
         navMeshAgent.speed = 0;
     }
 
-    public void LeaveBallAloneForAMoment()
+    public void LeaveCharacterAloneForAMoment()
     {
         state = EnemyBehaviourStates.leavingCharacterAlone;
     }
