@@ -9,13 +9,13 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7635642017953102499}
-  - component: {fileID: -3016236176850634296}
-  - component: {fileID: 4472168105682959585}
+  - component: {fileID: 5418632525981254447}
+  - component: {fileID: 6401837247803245426}
   - component: {fileID: -5148361712802957196}
   - component: {fileID: -7533720610691211714}
   - component: {fileID: 4604796294137461852}
-  - component: {fileID: 7949010449652068540}
-  - component: {fileID: -7613884848441256080}
+  - component: {fileID: -3078679659260352106}
+  - component: {fileID: -1566079917950832556}
   m_Layer: 0
   m_Name: Zombie
   m_TagString: Untagged
@@ -31,7 +31,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3152372293292223778}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 270.87967, y: 33.850845, z: 486.8248}
   m_LocalScale: {x: 3, y: 4, z: 3}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -39,7 +39,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &-3016236176850634296
+--- !u!54 &5418632525981254447
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -53,9 +53,9 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!136 &4472168105682959585
+  m_Constraints: 80
+  m_CollisionDetection: 1
+--- !u!136 &6401837247803245426
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -66,7 +66,7 @@ CapsuleCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   m_Radius: 0.5
-  m_Height: 0
+  m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &-5148361712802957196
@@ -107,7 +107,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1fd78940f984bb948be0e7261ca19ed2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &7949010449652068540
+--- !u!114 &-3078679659260352106
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc00723a4e8382f4aae70f68ebb82504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!195 &-7613884848441256080
+--- !u!195 &-1566079917950832556
 NavMeshAgent:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
