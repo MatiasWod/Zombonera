@@ -1107,9 +1107,9 @@ Rigidbody:
   m_AngularDrag: 0.05
   m_UseGravity: 1
   m_IsKinematic: 0
-  m_Interpolate: 1
+  m_Interpolate: 0
   m_Constraints: 80
-  m_CollisionDetection: 1
+  m_CollisionDetection: 2
 --- !u!23 &898964465
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -2315,7 +2315,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1984309603}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c67088e2d60d9f3448b73010f89ce9a6, type: 3}
   m_Name: 
@@ -2372,7 +2372,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2064984893}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.12294231, y: -0, z: -0, w: 0.9924138}
   m_LocalPosition: {x: 0.23, y: 0.15, z: 0.03}
   m_LocalScale: {x: 0.33333334, y: 0.25, z: 0.33333334}
   m_ConstrainProportionsScale: 0
@@ -2380,6 +2380,7 @@ Transform:
   - {fileID: 1183677669}
   m_Father: {fileID: 898964467}
   m_RootOrder: 1
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!82 &2064984896
 AudioSource:
@@ -2477,6 +2478,9 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+=======
+  m_LocalEulerAnglesHint: {x: -14.124, y: 0, z: 0}
+>>>>>>> df2a884de762367617685468aff3789d6f8773ff
 --- !u!23 &24638751858591210
 MeshRenderer:
   m_ObjectHideFlags: 0
