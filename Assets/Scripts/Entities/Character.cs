@@ -26,6 +26,8 @@ public class Character : MonoBehaviour
 
     [SerializeField] private Gun _gun;
 
+    [SerializeField] private float _sens;
+
     #region COMMANDS
     private CmdMovement _cmdMovementForward;
     private CmdMovement _cmdMovementBack;
