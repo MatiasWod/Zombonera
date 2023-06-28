@@ -93,6 +93,8 @@ public class Character : MonoBehaviour
         _cmdAttack = new CmdAttack(_gun);
         _cmdReload = new CmdReload(_gun);
 
+        _gun.hudBullet( _gun._currentBulletCount , _gun.MaxBulletCount);
+
         _currentWeapon = index;
     }
 

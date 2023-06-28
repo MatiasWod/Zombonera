@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 [RequireComponent(typeof(Actor))]
 public class LifeController : MonoBehaviour, IDamagable
@@ -8,7 +9,7 @@ public class LifeController : MonoBehaviour, IDamagable
     #region I_DAMAGABLE_PROPERTIES
     public float CurrentLife => _currentLife;
     [SerializeField] private float _currentLife;
-
+    [SerializeField] private Slider healthBar;
     public float MaxLife => GetComponent<Actor>().Stats.MaxLife;
     #endregion
 
@@ -19,10 +20,20 @@ public class LifeController : MonoBehaviour, IDamagable
     }
     #endregion
 
+    private void Update()
+    {
+        if (healthBar != null)
+        {
+            healthBar.value = _currentLife / MaxLife;
+        }
+    }
+
     #region I_DAMAGABLE_METHODS
     public void TakeDamage(int damage)
     {
         _currentLife -= damage;
+
+
         if (IsDead())
         {
             if (name == "Character")

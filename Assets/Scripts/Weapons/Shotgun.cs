@@ -26,6 +26,7 @@ public class Shotgun : Gun
 
             _currentShotCooldown = ShotCooldown;
             _currentBulletCount--;
+            hudBullet(_currentBulletCount, MaxBulletCount);
         }
     }
 

@@ -1,15 +1,19 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class Gun : MonoBehaviour, IGun
 {
     [SerializeField] protected GunStats _stats;
 
     #region GUN_PROPERTIES
-    [SerializeField] protected int _currentBulletCount;
+    [SerializeField] public int _currentBulletCount;
     [SerializeField] protected float _currentShotCooldown;
     #endregion
+
+    [SerializeField] private TextMeshProUGUI _textField;
 
     #region I_GUN_PROPERTIES
     public GameObject BulletPrefab => _stats.BulletPrefab;
@@ -49,6 +53,16 @@ public class Gun : MonoBehaviour, IGun
         }
     }
 
-    public virtual void Reload() => _currentBulletCount = MaxBulletCount;
+    public virtual void hudBullet(int currentBullets, int maxBullets)
+    {
+        string hudBullets = string.Concat(string.Concat(currentBullets.ToString(), " / "), maxBullets.ToString());
+        _textField.text = hudBullets;
+    }
+
+    public virtual void Reload()
+    {
+        _currentBulletCount = MaxBulletCount;
+        hudBullet(_currentBulletCount, MaxBulletCount);
+    }
     #endregion
 }

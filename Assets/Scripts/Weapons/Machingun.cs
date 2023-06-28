@@ -28,6 +28,7 @@ public class Machingun : Gun
             }
             _currentBulletCount--;
             _currentShotCooldown = ShotCooldown;
+            hudBullet(_currentBulletCount, MaxBulletCount);
         }
     }
 
