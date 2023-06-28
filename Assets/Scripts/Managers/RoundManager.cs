@@ -1,11 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Text;
 using UnityEngine;
+using TMPro;
 
 public class RoundManager : MonoBehaviour
 {
     public GameObject[] _spawnPoints;
     public GameObject[] _zombies;       //if we decide to add other type of zombies
+    [SerializeField] private TextMeshProUGUI _textField;
+
     public int _zombieCountIncrease;
     public int _round;
     public bool _spawning;
@@ -34,6 +38,7 @@ public class RoundManager : MonoBehaviour
     IEnumerator SpawnRound(int zombieCounter)
     {
         Debug.Log("Round Started");
+        _textField.text = IntToRoman(_round);
         _spawning = true;
         yield return new WaitForSeconds(5);
         for(int i=0; i< zombieCounter; i++)
@@ -47,6 +52,26 @@ public class RoundManager : MonoBehaviour
         yield break;
     }
 
+    public static string IntToRoman(int number)
+    {
+        int[] arabicValues = { 1000, 900, 500, 400, 100, 90, 50, 40, 10, 9, 5, 4, 1 };
+        string[] romanSymbols = { "M", "CM", "D", "CD", "C", "XC", "L", "XL", "X", "IX", "V", "IV", "I" };
+
+        StringBuilder result = new StringBuilder();
+        int remaining = number;
+
+        for (int i = 0; i < arabicValues.Length; i++)
+        {
+            while (remaining >= arabicValues[i])
+            {
+                result.Append(romanSymbols[i]);
+                remaining -= arabicValues[i];
+            }
+        }
+
+        return result.ToString();
+    }
+
     void SpawnZombie(int round)
     {
         int spawnPostion = Random.Range(0, 4 );
@@ -55,3 +80,6 @@ public class RoundManager : MonoBehaviour
         _zombiesSpawned++;
     }
 }
+
+
+
