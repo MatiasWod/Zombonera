@@ -31,6 +31,7 @@ public class Character : MonoBehaviour
     private CmdMovement _cmdMovementBack;
     private CmdMovement _cmdMovementLeft;
     private CmdMovement _cmdMovementRight;
+    private CmdMovement _cmdMovementZero;
 
     private CmdAttack _cmdAttack;
     private CmdReload _cmdReload;
@@ -38,6 +39,7 @@ public class Character : MonoBehaviour
     private CmdApplyDamage _cmdApplyDamage;
 
     private int _currentWeapon = 0;
+    private int moved = 0;
 
     #endregion
 
@@ -50,6 +52,7 @@ public class Character : MonoBehaviour
         _cmdMovementBack = new CmdMovement(_movementController, -Vector3.forward);
         _cmdMovementLeft = new CmdMovement(_movementController, -Vector3.right);
         _cmdMovementRight = new CmdMovement(_movementController, Vector3.right);
+        _cmdMovementZero = new CmdMovement(_movementController, Vector3.zero);
 
         //_cmdRotateCamera = 
 
@@ -63,10 +66,32 @@ public class Character : MonoBehaviour
     void Update()
     {
         Vector3 movementDirection = Vector3.zero;
-        if (Input.GetKey(_moveForward)) _cmdMovementForward.Execute();
-        if (Input.GetKey(_moveBack)) _cmdMovementBack.Execute();
-        if (Input.GetKey(_moveRight)) _cmdMovementRight.Execute();
-        if (Input.GetKey(_MoveLeft)) _cmdMovementLeft.Execute();
+        if (Input.GetKey(_moveForward))
+        {
+            _cmdMovementForward.Execute();
+            moved = 1;
+        }
+        if (Input.GetKey(_moveBack))
+        {
+            _cmdMovementBack.Execute();
+            moved = 1;
+        }
+        if (Input.GetKey(_moveRight))
+        {
+            _cmdMovementRight.Execute();
+            moved = 1;
+        }
+        if (Input.GetKey(_MoveLeft))
+        {
+            _cmdMovementLeft.Execute();
+            moved = 1;
+        }
+        if(moved == 0)
+        {
+            _cmdMovementZero.Execute();
+        }
+
+        moved = 0;
 
 
         if (Input.GetKey(_shoot)) EventQueueManager.instance.AddEventToQueue(_cmdAttack);
