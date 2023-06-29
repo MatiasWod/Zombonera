@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 0.332
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.000023172648, g: 0.000028952301, b: 0.000039882863, a: 0.332}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0.332}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -6919,7 +6919,7 @@ PrefabInstance:
     - target: {fileID: 2310012598235525511, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: -1160447685214542163, guid: 44cc6472462e9bd4c96356420ae51f92, type: 3}
+      objectReference: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
     - target: {fileID: 4769122666203760171, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Name
       value: Patrullero (3)
