@@ -22,6 +22,13 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "rider.external.source.directories": [
+      "C:\\Users\\Usuario\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\DecompilerCache",
+      "C:\\Users\\Usuario\\AppData\\Roaming\\JetBrains\\Rider2022.3\\resharper-host\\SourcesCache",
+      "C:\\Users\\Usuario\\AppData\\Local\\Symbols\\src"
+    ]
   }
 }]]></component>
   <component name="RunManager" selected="Standalone Player.Start Unity">
@@ -70,9 +77,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1688071402060</updated>
-      <workItem from="1688071408386" duration="731000" />
+      <workItem from="1688071408386" duration="1321000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
