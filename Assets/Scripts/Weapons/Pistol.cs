@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class Pistol : Gun
 {
+    public GameObject _pistolObject;
 
     public override void Attack()
     {
@@ -15,6 +17,7 @@ public class Pistol : Gun
             _currentShotCooldown = ShotCooldown;
             _currentBulletCount--;
             hudBullet(_currentBulletCount, MaxBulletCount);
+            _pistolObject.GetComponent<Animator>().Play("PistolRecoil");
         }
     }
 

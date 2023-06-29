@@ -5,8 +5,8 @@ using UnityEngine;
 public class Shotgun : Gun
 {
     [SerializeField] private int _shotCount = 5;
-    
-    
+    public GameObject _shotgunObject;
+
     private void Update()
     {
         if (_currentShotCooldown >= 0) _currentShotCooldown -= Time.deltaTime;
@@ -27,6 +27,7 @@ public class Shotgun : Gun
             _currentShotCooldown = ShotCooldown;
             _currentBulletCount--;
             hudBullet(_currentBulletCount, MaxBulletCount);
+            _shotgunObject.GetComponent<Animator>().Play("ShotgunRecoil");
         }
     }
 
