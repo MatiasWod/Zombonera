@@ -38,7 +38,7 @@ public class RoundManager : MonoBehaviour
     IEnumerator SpawnRound(int zombieCounter)
     {
         Debug.Log("Round Started");
-        //_textField.text = IntToRoman(_round);
+        _textField.text = IntToRoman(_round);
         _spawning = true;
         yield return new WaitForSeconds(5);
         for(int i=0; i< zombieCounter; i++)
