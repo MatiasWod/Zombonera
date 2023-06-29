@@ -6919,7 +6919,7 @@ PrefabInstance:
     - target: {fileID: 2310012598235525511, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 9ad269c99dcf42b7aedefd83dd5a7b9d, type: 2}
+      objectReference: {fileID: 995552399348758348, guid: 2ded6499a54079b4483a48a0f9c734a7, type: 3}
     - target: {fileID: 4769122666203760171, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Name
       value: Patrullero (3)
@@ -6930,7 +6930,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5288496313261268113, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 8.2743225
+      value: 8.266
       objectReference: {fileID: 0}
     - target: {fileID: 5288496313261268113, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_LocalPosition.y
