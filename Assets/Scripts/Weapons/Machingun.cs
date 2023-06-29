@@ -5,7 +5,7 @@ using UnityEngine;
 public class Machingun : Gun
 {
     [SerializeField] private int _shotCount = 5;
-
+    public GameObject _machingunObject;
     private void Update()
     {
         if (_currentShotCooldown >= 0) _currentShotCooldown -= Time.deltaTime;
@@ -29,6 +29,7 @@ public class Machingun : Gun
             _currentBulletCount--;
             _currentShotCooldown = ShotCooldown;
             hudBullet(_currentBulletCount, MaxBulletCount);
+            _machingunObject.GetComponent<Animator>().Play("MachingunRecoil");
         }
     }
 
