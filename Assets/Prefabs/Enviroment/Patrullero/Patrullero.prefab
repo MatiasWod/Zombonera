@@ -21097,6 +21097,7 @@ GameObject:
   - component: {fileID: 9136494081930269492}
   - component: {fileID: 6426548416343009278}
   - component: {fileID: 4080659593549231996}
+  - component: {fileID: 3684415781076870922}
   m_Layer: 0
   m_Name: Patrullero
   m_TagString: Untagged
@@ -21721,6 +21722,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 8.183594, y: 19.60434, z: 7.125878}
   m_Center: {x: -64.61183, y: 8.614967, z: 3.409701}
+--- !u!208 &3684415781076870922
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4769122666203760171}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 4.09175, y: 9.8, z: 3.55}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: -64.61, y: 8.614, z: 3.41}
+  m_TimeToStationary: 0.5
 --- !u!1 &4783952756643039736
 GameObject:
   m_ObjectHideFlags: 0

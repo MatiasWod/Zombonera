@@ -4801,6 +4801,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3736895349061687245}
   - component: {fileID: 2757912926985241559}
+  - component: {fileID: -5242721992572842766}
   m_Layer: 0
   m_Name: Auto Accidentado
   m_TagString: Untagged
@@ -4839,6 +4840,22 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 23.275452, y: 9.844603, z: 8.074995}
   m_Center: {x: 42.166542, y: 23.641323, z: 4.408411}
+--- !u!208 &-5242721992572842766
+NavMeshObstacle:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4077954667274947959}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Shape: 1
+  m_Extents: {x: 11.635, y: 4.92, z: 4.035}
+  m_MoveThreshold: 0.1
+  m_Carve: 0
+  m_CarveOnlyStationary: 1
+  m_Center: {x: 42.15, y: 23.65, z: 4.4}
+  m_TimeToStationary: 0.5
 --- !u!1 &4090742063566132950
 GameObject:
   m_ObjectHideFlags: 0
