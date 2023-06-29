@@ -8,7 +8,6 @@ public class Character : MonoBehaviour
     private MovementController _movementController;
     private CameraController _cameraController;
 
-
     // BINDING ATTACK KEYS
     [SerializeField] private KeyCode _shoot = KeyCode.Mouse0;
     [SerializeField] private KeyCode _reload = KeyCode.R;

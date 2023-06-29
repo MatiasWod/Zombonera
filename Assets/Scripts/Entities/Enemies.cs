@@ -21,6 +21,7 @@ public class Enemies : MonoBehaviour
     private float _timeleavingCharacterAlone = 2;  
     private float _timeleavingCharacterAloneReset = 2;
     private Collider _collider;
+    private AudioSource _death_sound_source;
 
 
     void Start()
@@ -33,6 +34,7 @@ public class Enemies : MonoBehaviour
         _characterLastPosition = GameObject.Find("Character").transform.position;
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _collider = GetComponent<Collider>();
+        _death_sound_source = GetComponent<AudioSource>();
         _navMeshAgent.isStopped = false;
         _navMeshAgent.speed = _speedRun;            
         _navMeshAgent.SetDestination(_characterLastPosition);    
@@ -88,6 +90,8 @@ public class Enemies : MonoBehaviour
         _navMeshAgent.isStopped = true;
         _navMeshAgent.speed = 0;
         _collider.enabled = false;
+        
+        _death_sound_source.Play();
     }
 
     public void LeaveCharacterAloneForAMoment()
