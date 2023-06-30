@@ -7271,10 +7271,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 849412732}
     m_Modifications:
+    - target: {fileID: 1900345136655273030, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
+      propertyPath: m_RootOrder
+      value: 539
+      objectReference: {fileID: 0}
+    - target: {fileID: 1961560377591096267, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
+      propertyPath: m_RootOrder
+      value: 539
+      objectReference: {fileID: 0}
     - target: {fileID: 2310012598235525511, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 995552399348758348, guid: 2ded6499a54079b4483a48a0f9c734a7, type: 3}
+    - target: {fileID: 4217802141704877188, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
+      propertyPath: m_SpotAngle
+      value: 138.7
+      objectReference: {fileID: 0}
     - target: {fileID: 4769122666203760171, guid: 49ad519e6c50334489c8f0e12a83a593, type: 3}
       propertyPath: m_Name
       value: Patrullero (3)
