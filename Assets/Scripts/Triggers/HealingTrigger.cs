@@ -26,7 +26,6 @@ public class HealingTrigger : MonoBehaviour
             // Apply healing to the player character
             EventQueueManager.instance.AddEvent(new CmdHeal(damagable, _healingAmount));
             _currentCd = _healingCd;
-            Debug.Log("trigger");
         }
     }
 }

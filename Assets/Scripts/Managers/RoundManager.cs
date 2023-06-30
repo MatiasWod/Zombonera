@@ -15,6 +15,7 @@ public class RoundManager : MonoBehaviour
     public bool _spawning;
     private int _zombiesSpawned;
     public int _zombiesKilled;
+    public bool cubeZombies = false;
 
     // Start is called before the first frame update
     void Start()
@@ -75,9 +76,20 @@ public class RoundManager : MonoBehaviour
     void SpawnZombie(int round)
     {
         int spawnPostion = Random.Range(0, 4 );
-        Instantiate(_zombies[0], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
-        
+        if (cubeZombies)
+        {
+            Instantiate(_zombies[1], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
+        }
+        else
+        {
+            Instantiate(_zombies[0], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
+        }
         _zombiesSpawned++;
+    }
+
+    public void SetSpawnCubes(bool cond)
+    {
+        cubeZombies = cond;
     }
 }
 

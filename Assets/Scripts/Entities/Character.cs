@@ -110,11 +110,12 @@ public class Character : MonoBehaviour
         if (Input.GetKeyDown(_shotgun)) ChangeWeapon(2);
 
         RaycastHit hit;
+        float range = 50f;
         // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, Mathf.Infinity, layermask))
+        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, range, layermask))
         {
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
-            Debug.Log("Did Hit");
+            //Debug.Log("Did Hit");
 			if(m_ToggleChange == false){
 				septima.Play();
 				m_ToggleChange = true;
@@ -127,7 +128,7 @@ public class Character : MonoBehaviour
 				m_ToggleChange = false;
 			}
             Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 1000, Color.white);
-            Debug.Log("Did not Hit");
+            //Debug.Log("Did not Hit");
         }
 
         float mouseX = Input.GetAxisRaw("Mouse X") * Time.deltaTime ;
