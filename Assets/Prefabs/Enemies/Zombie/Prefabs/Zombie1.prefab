@@ -1845,6 +1845,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _currentLife: 0
   healthBar: {fileID: 0}
+  collisionParticles: {fileID: 0}
 --- !u!114 &-3182058377373698601
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1869,7 +1870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cc00723a4e8382f4aae70f68ebb82504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cubenedetto: {fileID: 0}
 --- !u!195 &-7636169283190897049
 NavMeshAgent:
   m_ObjectHideFlags: 0

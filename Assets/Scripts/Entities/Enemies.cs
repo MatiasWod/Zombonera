@@ -10,7 +10,7 @@ public class Enemies : MonoBehaviour
         chasing,
         leavingCharacterAlone,
     }
-    
+
     private NavMeshAgent _navMeshAgent;               
     private int _damage;
     private float _attackRange;

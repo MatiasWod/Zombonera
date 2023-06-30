@@ -16,6 +16,7 @@ public class LifeController : MonoBehaviour, IDamagable
     [SerializeField] private Slider healthBar;
     private bool _isAnimatorNotNull;
     public float MaxLife => GetComponent<Actor>().Stats.MaxLife;
+    [SerializeField] private ParticleSystem collisionParticles;
     #endregion
 
     #region UNITY_EVENTS
@@ -41,7 +42,10 @@ public class LifeController : MonoBehaviour, IDamagable
     public void TakeDamage(int damage)
     {
         _currentLife -= damage;
-
+        if (collisionParticles != null)
+        {
+            Instantiate(collisionParticles, transform.position, transform.rotation);
+        }
 
         if (IsDead())
         {
