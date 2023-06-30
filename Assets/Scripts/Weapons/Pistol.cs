@@ -12,7 +12,7 @@ public class Pistol : Gun
         if (_currentShotCooldown <= 0 && _currentBulletCount > 0)
         {
             m_shootingSound.Play();
-            var bullet = Instantiate(BulletPrefab, transform.position + transform.forward * 2, transform.rotation);
+            var bullet = Instantiate(BulletPrefab, transform.position + _character.transform.rotation * Vector3.forward * 4, transform.rotation);
             bullet.GetComponent<Bullet>().SetOwner(this);
             _currentShotCooldown = ShotCooldown;
             _currentBulletCount--;

@@ -763,6 +763,17 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &220152370 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4411839829194654933, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+  m_PrefabInstance: {fileID: 339586353}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 220152354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c1dea7584cd7df47a79a2638a2f37b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &224866721
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -898,9 +909,17 @@ PrefabInstance:
       value: 6.9
       objectReference: {fileID: 0}
     - target: {fileID: 4411839829345448695, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: _character
+      value: 
+      objectReference: {fileID: 220152370}
+    - target: {fileID: 4411839829345448695, guid: 5e203859f6996304ab85d1967891057c, type: 3}
       propertyPath: _shotgunObject
       value: 
       objectReference: {fileID: 339586354}
+    - target: {fileID: 4411839830013059368, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: _character
+      value: 
+      objectReference: {fileID: 220152370}
     - target: {fileID: 4411839830013059368, guid: 5e203859f6996304ab85d1967891057c, type: 3}
       propertyPath: _pistolObject
       value: 
@@ -909,6 +928,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 1.9199996
       objectReference: {fileID: 0}
+    - target: {fileID: 4411839830580731641, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.024999976
+      objectReference: {fileID: 0}
+    - target: {fileID: 4411839830580731645, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: _character
+      value: 
+      objectReference: {fileID: 220152370}
     - target: {fileID: 4411839830580731645, guid: 5e203859f6996304ab85d1967891057c, type: 3}
       propertyPath: _machingunObject
       value: 
@@ -8042,7 +8069,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: 1facee42380b26d42b2c139fa5b0f87a, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.685
+  m_Volume: 0.352
   m_Pitch: 1
   Loop: 1
   Mute: 0

@@ -22,7 +22,7 @@ public class Machingun : Gun
             m_shootingSound.Play();
             for (int i = 0; i < _shotCount; i++)
             {
-                var bullet = Instantiate(BulletPrefab, transform.position + (aux * Vector3.forward) * i, aux);
+                var bullet = Instantiate(BulletPrefab, transform.position + _character.transform.rotation * Vector3.forward * 4+ (aux * Vector3.forward) * i, aux);
                 bullet.GetComponent<Bullet>().SetOwner(this);
 
             }

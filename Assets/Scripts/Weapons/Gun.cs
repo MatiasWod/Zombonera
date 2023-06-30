@@ -7,6 +7,7 @@ using TMPro;
 public class Gun : MonoBehaviour, IGun
 {
     [SerializeField] protected GunStats _stats;
+    [SerializeField] public Character _character;
 
     #region GUN_PROPERTIES
     [SerializeField] public int _currentBulletCount;
