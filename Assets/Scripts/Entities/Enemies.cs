@@ -28,7 +28,7 @@ public class Enemies : MonoBehaviour
     {    
         _state = EnemyBehaviourStates.chasing;
 
-        _speedRun = 20;
+        _speedRun = 15;
         _damage = 20;
         _attackRange = 5;
         _characterLastPosition = GameObject.Find("Character").transform.position;
