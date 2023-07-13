@@ -8,6 +8,7 @@ public class CameraController : MonoBehaviour
 
     [SerializeField] public GameObject _camera;
     [SerializeField] public GameObject _character;
+    [SerializeField] public GameObject _guns;
 
     private float sens = 200;
 
@@ -41,6 +42,7 @@ public class CameraController : MonoBehaviour
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         _camera.transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
+        _guns.transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
         _character.transform.rotation = Quaternion.Euler(0, yRotation, 0);
     }
 

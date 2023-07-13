@@ -662,6 +662,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 396b077c4335ec343a5d2c3ff54db8d6, type: 3}
+--- !u!1 &193385932 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1073626623907228993, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+  m_PrefabInstance: {fileID: 339586353}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &220152354 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4411839830514029225, guid: 5e203859f6996304ab85d1967891057c, type: 3}
@@ -888,6 +893,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4411839829076254754, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4411839829194654929, guid: 5e203859f6996304ab85d1967891057c, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -936,6 +945,10 @@ PrefabInstance:
       propertyPath: _character
       value: 
       objectReference: {fileID: 220152370}
+    - target: {fileID: 4411839830580731645, guid: 5e203859f6996304ab85d1967891057c, type: 3}
+      propertyPath: _gunsRotation
+      value: 
+      objectReference: {fileID: 193385932}
     - target: {fileID: 4411839830580731645, guid: 5e203859f6996304ab85d1967891057c, type: 3}
       propertyPath: _machingunObject
       value: 
