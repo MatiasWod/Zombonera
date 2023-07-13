@@ -1,0 +1,2631 @@
+fileFormatVersion: 2
+guid: 68d8d5509e2245f4d8de343fc039caf3
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f6e270aa6c57c498846e2b9878a87d
+      internalID: 1575963231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d359a778df125d044bdcb50054fd483f
+      internalID: 1514240869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_2
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04aca2a148ed8834681ac57edfe88217
+      internalID: -1472873161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_3
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1dd331216230b34a89977bef2e71620
+      internalID: 2008635667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_4
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aa619db80a66d44a974e1b0feeff8b1
+      internalID: 1071072080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_5
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 8964
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1566e51fc7e618c42bbced3cf7fc7e13
+      internalID: 858553900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69551e8916f204845b656b672f229d8f
+      internalID: -1380317956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_7
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22e108a0edb293b4cb3b10b2bc848de7
+      internalID: -2068014269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_8
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f41e593ae55214ca3990e1b28bcb17
+      internalID: -924139719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_9
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74eac448596e6c0428d89f368e844018
+      internalID: -1590018356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_10
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26c09e4313af6234e919f99c576cfafe
+      internalID: 401548776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_11
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 8466
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14c9ab1468e08d249a55b5a69da7cabb
+      internalID: -704447113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45c785491f57cc74ea5f43aa69f29c25
+      internalID: 322733445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_13
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d65d59b27f2b04346bd2779f619a87e1
+      internalID: -102874874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_14
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f2f0146df943341aa6113438a820b4
+      internalID: -1458224524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_15
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457c7fef758c50344a1802d732ea585e
+      internalID: 1927758868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_16
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae0b2e23ce38c647844d6d4aed08e93
+      internalID: -1743001259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_17
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 7968
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfefa412524f710458c744c1dfacbc83
+      internalID: -430300522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cfc9aca5dbc147e4bb71874e81a73644
+      internalID: -1692630058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_19
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a0c5e9c1498d3c4eb74f05adb4aea3f
+      internalID: -958025846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_20
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77458dc3ec402c44aaf4b8e6718fe263
+      internalID: -460448456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_21
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52a12d62696bf6b4cbe4e1eaafb66056
+      internalID: -230223311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_22
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c4b3cc6fe2c890408978cfbff5bb172
+      internalID: 1721047286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_23
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 7470
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72452aaf0c659e742be7b2483e8cc8fb
+      internalID: -469087094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40565b17ac7d3284bb20aaf68c87c877
+      internalID: 1332967409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_25
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72e5da9769125e34993af0175eb5c45e
+      internalID: -83430859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_26
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da9abecc57c88ab4fb3a4e2f0f5bcbea
+      internalID: 167404391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_27
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46b18fbe38d03ac42af9902bf99b13e4
+      internalID: 142544874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_28
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f88122ca967b5c41b3b1cdc2ca12d74
+      internalID: 1312154093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_29
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 6972
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02fbdb667abbb8d47a1652db20b8a10a
+      internalID: 567330638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff4a47795d1e7c42b1896babc7152bd
+      internalID: -1068249049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_31
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15333862cdcc3db409748e086904e597
+      internalID: 1940107183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_32
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8305f618082005448eddc4b4592c968
+      internalID: 1142949402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_33
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3ac2c5056b091543aad1d1980af7f73
+      internalID: -535677653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_34
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d79a1550693d104f9a998daad1f8b4f
+      internalID: 615228042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_35
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 6474
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 639905fb7a8cedc4b91823c611d194cf
+      internalID: -275758633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c0cb93688fbf0b499bbab01d3325930
+      internalID: 2067511301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_37
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d646464716906834aa80b744c7d4131f
+      internalID: 1201342982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_38
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3eba90efe6504a243a6bee1209ce2fc8
+      internalID: -2029433746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_39
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d8cfac8c7ae96f4881bbc4858608e98
+      internalID: -366591028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_40
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd2cf1d5efe458c45909d38db97967f9
+      internalID: 2065352621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_41
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 5976
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08f4b92e7e1287b42abe1b7480d4f7c1
+      internalID: -619999283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 094df8e55116e78428fe699bb7f129f3
+      internalID: -2115538340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_43
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2d8512c21b27df49949d14cf1958496
+      internalID: 1885474897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_44
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d95ad4653f0554f8bd39225eefe1d1
+      internalID: -848680147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_45
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abe37775ab866454780e71283add5f96
+      internalID: -1108060480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_46
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15299e07b64da464494f6a374743a3db
+      internalID: 1784905366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_47
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 5478
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae386ad8893188149a753f6a944e8b94
+      internalID: 96670742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd14a9bdfaf40254c99c1f1cd04450ff
+      internalID: -1225040142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_49
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76911d0d6140a32438be3185bb7e27b0
+      internalID: -945359879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_50
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a0733e88fa2ee3479849d0b19ac4e70
+      internalID: -524779784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_51
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e22f93fa82242944cb585b697a2623e1
+      internalID: -1717819467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_52
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395b93f8a68cadf4d98f2d001cc7c800
+      internalID: -49127339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_53
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 4980
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b272a0f443ea0de45b738ac88359a06d
+      internalID: 1810100186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b362a75c075dfef45bbed89261f4d410
+      internalID: 1505430120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_55
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19849a29912a94840832ad2d7af7499b
+      internalID: -1045364157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_56
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50a75aa2e467fd844a18749f596750dd
+      internalID: -475661778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_57
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ad069890abef84c9550a867040880d
+      internalID: -1572708254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_58
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d6d300cdbfa33e4e906eb8db2cccd2b
+      internalID: 422487892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_59
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 4482
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b950211e868c3484ebaee60d98d6de5a
+      internalID: 160769656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cd459c5e57d6cd4cbe8264428c8a4cf
+      internalID: 1783986904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_61
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c64c7157588ad44799da8003f490f5a
+      internalID: -565157510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_62
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f85b591ce94cb74fb89407e1e9fb37a
+      internalID: 1022416929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_63
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ec445f7175fd04db1578a51b37498d
+      internalID: 1712626307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_64
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 212882823c41394468ff50554969cc09
+      internalID: -642317597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_65
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 3984
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e7c6480c3902ee43836973f58ebaf6a
+      internalID: -1770440276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_66
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c9a30c8ca0ab34093d7d59ebd3c8d8
+      internalID: 1384201802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_67
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04bab3711c524ab4ca4fa73e28bb3a47
+      internalID: 2079919919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_68
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 111ab109c532d834898133ab55df3927
+      internalID: 1626617028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_69
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b32f282c11e61b48aa0f5f8987ed3fd
+      internalID: -1635637661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_70
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b33ce02ead9281d498867f33c652f7f3
+      internalID: 906021412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_71
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 3486
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c4f6b4765a251349b69c596d62defe8
+      internalID: 921443146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26948452ec437294b8bcabe2d6c1ff62
+      internalID: 1348309902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_73
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50fd2541b6741c947a740b3e19ca0a93
+      internalID: 465178192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_74
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 986c3b205afe19646964bdff3ca6661f
+      internalID: -1483818867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_75
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d797b8dc770b24789240b633836652
+      internalID: 1868198185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_76
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d6054ed41efa64b964600ce0ee80a3
+      internalID: -827035684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_77
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2988
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a2f5ee24f19d94bb9ae0882a1a5a47
+      internalID: 315598246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b74605b2f82314898e86bec3619c55
+      internalID: -2110403121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_79
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2543556cc997c0e4099e18a271679330
+      internalID: -1647675199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_80
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d2bc7287a3470a488d38af9f9e32c11
+      internalID: -1863952083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_81
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6beaa334d2dd97a49b8d0574e9a40366
+      internalID: 1390620648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_82
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5b3488c9867fd4bab9129c4c3e63df
+      internalID: -1787532920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_83
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 2490
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a3e9ade10caaaf49af920b1259ed390
+      internalID: 896455910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_84
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f2bbb9b4684c744a995271d872df3ca
+      internalID: 1154404944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_85
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d570f640aceee64bb572c1180666e46
+      internalID: 2061203180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_86
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b0fd9b26d0875438ce3a15a6219b8b
+      internalID: -1940095939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_87
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 381484d659190de489ded42f3bd52991
+      internalID: -1624167463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_88
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbf443633167ea44db14c86b3a722324
+      internalID: 2032322037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_89
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1992
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e49445f0d7e590d49b5282480fe755d2
+      internalID: -1762288562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fb80820f800f264dacdcb194589da14
+      internalID: 398039428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_91
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5dbfbb024ac7c34faea4fea18a1a79e
+      internalID: -1719338908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_92
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da95630c669349d44887f7cf5bbbd189
+      internalID: 1446714382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_93
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94c6b71fca1706e4f8c1bb7e3e95f2e4
+      internalID: -1822497887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_94
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 278944e2ae59c8f46abaeb304fe6843b
+      internalID: -462595910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_95
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 1494
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edd2116e7969cff4daecabb549529c8b
+      internalID: -976848796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_96
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 633706c8b126e5e46aa3802f8cef7518
+      internalID: -874800685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_97
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a75d4c1cb624cbd45aefbc3548b6118f
+      internalID: -77866076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_98
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5af123b5a94f04c9a54edded710506
+      internalID: -403259751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_99
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a5b79188f599446915bbcdbb1420a9
+      internalID: -1822205881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_100
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3762f5f0851fd945a74e1c9d54b2c3b
+      internalID: 734355901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_101
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 996
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df9cd9cf7037f3f47b17975e3adc60ad
+      internalID: -1751392098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_102
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfd0d5fac6a390945bdd1260ad664097
+      internalID: -1936671122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_103
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71f94715e484cf44ca0277757685df40
+      internalID: -324732978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_104
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a9210179cee764c8f7b4e05d05dc97
+      internalID: -388751498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_105
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f91defe42c1c940bd2275fc4e49a20
+      internalID: 875382942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_106
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a91e9c26c3289b4b8ff14292fbf93de
+      internalID: 973101355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_107
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 498
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431dc2df0b06c1c4fbf39726ab79b3e3
+      internalID: -1671087291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_108
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef092060e4d6ae4b8618e9a08662803
+      internalID: -1328189041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_109
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4de87e05149168c4fae8661373861e46
+      internalID: 1311581217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_110
+      rect:
+        serializedVersion: 2
+        x: 998
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 811a38f1dfead3346a20a2d60660f1cf
+      internalID: 940189979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_111
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81fae98e970f9e14abd60d1edc617a37
+      internalID: 400425798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_112
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4c0fa64d32ca46488c88df9494c6265
+      internalID: -2023194418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: coca-cola-share-a-coke_113
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 0
+        width: 498
+        height: 498
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c13b4b0499a6ce4489c29882d407d49
+      internalID: 1601865289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      coca-cola-share-a-coke_0: 1575963231
+      coca-cola-share-a-coke_1: 1514240869
+      coca-cola-share-a-coke_10: 401548776
+      coca-cola-share-a-coke_100: 734355901
+      coca-cola-share-a-coke_101: -1751392098
+      coca-cola-share-a-coke_102: -1936671122
+      coca-cola-share-a-coke_103: -324732978
+      coca-cola-share-a-coke_104: -388751498
+      coca-cola-share-a-coke_105: 875382942
+      coca-cola-share-a-coke_106: 973101355
+      coca-cola-share-a-coke_107: -1671087291
+      coca-cola-share-a-coke_108: -1328189041
+      coca-cola-share-a-coke_109: 1311581217
+      coca-cola-share-a-coke_11: -704447113
+      coca-cola-share-a-coke_110: 940189979
+      coca-cola-share-a-coke_111: 400425798
+      coca-cola-share-a-coke_112: -2023194418
+      coca-cola-share-a-coke_113: 1601865289
+      coca-cola-share-a-coke_12: 322733445
+      coca-cola-share-a-coke_13: -102874874
+      coca-cola-share-a-coke_14: -1458224524
+      coca-cola-share-a-coke_15: 1927758868
+      coca-cola-share-a-coke_16: -1743001259
+      coca-cola-share-a-coke_17: -430300522
+      coca-cola-share-a-coke_18: -1692630058
+      coca-cola-share-a-coke_19: -958025846
+      coca-cola-share-a-coke_2: -1472873161
+      coca-cola-share-a-coke_20: -460448456
+      coca-cola-share-a-coke_21: -230223311
+      coca-cola-share-a-coke_22: 1721047286
+      coca-cola-share-a-coke_23: -469087094
+      coca-cola-share-a-coke_24: 1332967409
+      coca-cola-share-a-coke_25: -83430859
+      coca-cola-share-a-coke_26: 167404391
+      coca-cola-share-a-coke_27: 142544874
+      coca-cola-share-a-coke_28: 1312154093
+      coca-cola-share-a-coke_29: 567330638
+      coca-cola-share-a-coke_3: 2008635667
+      coca-cola-share-a-coke_30: -1068249049
+      coca-cola-share-a-coke_31: 1940107183
+      coca-cola-share-a-coke_32: 1142949402
+      coca-cola-share-a-coke_33: -535677653
+      coca-cola-share-a-coke_34: 615228042
+      coca-cola-share-a-coke_35: -275758633
+      coca-cola-share-a-coke_36: 2067511301
+      coca-cola-share-a-coke_37: 1201342982
+      coca-cola-share-a-coke_38: -2029433746
+      coca-cola-share-a-coke_39: -366591028
+      coca-cola-share-a-coke_4: 1071072080
+      coca-cola-share-a-coke_40: 2065352621
+      coca-cola-share-a-coke_41: -619999283
+      coca-cola-share-a-coke_42: -2115538340
+      coca-cola-share-a-coke_43: 1885474897
+      coca-cola-share-a-coke_44: -848680147
+      coca-cola-share-a-coke_45: -1108060480
+      coca-cola-share-a-coke_46: 1784905366
+      coca-cola-share-a-coke_47: 96670742
+      coca-cola-share-a-coke_48: -1225040142
+      coca-cola-share-a-coke_49: -945359879
+      coca-cola-share-a-coke_5: 858553900
+      coca-cola-share-a-coke_50: -524779784
+      coca-cola-share-a-coke_51: -1717819467
+      coca-cola-share-a-coke_52: -49127339
+      coca-cola-share-a-coke_53: 1810100186
+      coca-cola-share-a-coke_54: 1505430120
+      coca-cola-share-a-coke_55: -1045364157
+      coca-cola-share-a-coke_56: -475661778
+      coca-cola-share-a-coke_57: -1572708254
+      coca-cola-share-a-coke_58: 422487892
+      coca-cola-share-a-coke_59: 160769656
+      coca-cola-share-a-coke_6: -1380317956
+      coca-cola-share-a-coke_60: 1783986904
+      coca-cola-share-a-coke_61: -565157510
+      coca-cola-share-a-coke_62: 1022416929
+      coca-cola-share-a-coke_63: 1712626307
+      coca-cola-share-a-coke_64: -642317597
+      coca-cola-share-a-coke_65: -1770440276
+      coca-cola-share-a-coke_66: 1384201802
+      coca-cola-share-a-coke_67: 2079919919
+      coca-cola-share-a-coke_68: 1626617028
+      coca-cola-share-a-coke_69: -1635637661
+      coca-cola-share-a-coke_7: -2068014269
+      coca-cola-share-a-coke_70: 906021412
+      coca-cola-share-a-coke_71: 921443146
+      coca-cola-share-a-coke_72: 1348309902
+      coca-cola-share-a-coke_73: 465178192
+      coca-cola-share-a-coke_74: -1483818867
+      coca-cola-share-a-coke_75: 1868198185
+      coca-cola-share-a-coke_76: -827035684
+      coca-cola-share-a-coke_77: 315598246
+      coca-cola-share-a-coke_78: -2110403121
+      coca-cola-share-a-coke_79: -1647675199
+      coca-cola-share-a-coke_8: -924139719
+      coca-cola-share-a-coke_80: -1863952083
+      coca-cola-share-a-coke_81: 1390620648
+      coca-cola-share-a-coke_82: -1787532920
+      coca-cola-share-a-coke_83: 896455910
+      coca-cola-share-a-coke_84: 1154404944
+      coca-cola-share-a-coke_85: 2061203180
+      coca-cola-share-a-coke_86: -1940095939
+      coca-cola-share-a-coke_87: -1624167463
+      coca-cola-share-a-coke_88: 2032322037
+      coca-cola-share-a-coke_89: -1762288562
+      coca-cola-share-a-coke_9: -1590018356
+      coca-cola-share-a-coke_90: 398039428
+      coca-cola-share-a-coke_91: -1719338908
+      coca-cola-share-a-coke_92: 1446714382
+      coca-cola-share-a-coke_93: -1822497887
+      coca-cola-share-a-coke_94: -462595910
+      coca-cola-share-a-coke_95: -976848796
+      coca-cola-share-a-coke_96: -874800685
+      coca-cola-share-a-coke_97: -77866076
+      coca-cola-share-a-coke_98: -403259751
+      coca-cola-share-a-coke_99: -1822205881
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
