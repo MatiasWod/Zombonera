@@ -27,7 +27,7 @@ public class RainFollower : MonoBehaviour
     {
         //player pos but I'm adding -20 to the X because it seems like the particle zone does not use the center, offset to keep player near the center of the particle zone
         //also setting y to 15 to keep it above player (its rain)
-        currentPlayerPos = new Vector3(player.localPosition.x - 12, 30, player.localPosition.z);
+        currentPlayerPos = new Vector3(player.localPosition.x - 1, 30, player.localPosition.z);
 
         //do da smoothdamp to player pos
         transform.position =  Vector3.SmoothDamp(transform.position, currentPlayerPos, ref velocity, rainSmoothSpeed);
