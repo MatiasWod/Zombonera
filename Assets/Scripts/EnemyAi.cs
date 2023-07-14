@@ -8,6 +8,7 @@ public class EnemyAi : MonoBehaviour
 
     public NavMeshAgent policia;
     private AudioSource shooting;
+    private Animator animator;
 
     public Transform player;
 
@@ -25,19 +26,21 @@ public class EnemyAi : MonoBehaviour
         player = GameObject.Find("Character").transform;
         policia = GetComponent<NavMeshAgent>();
         shooting = GetComponent<AudioSource>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
         playerInAttackRange = Physics.CheckSphere(transform.position, attackRange, whatIsPlayer);
-
+        animator.SetBool("InShootingRange", true);
         if (playerInAttackRange)
         {
             AttackPlayer();
         }
         else
         {
+            animator.SetBool("InShootingRange", false);
             ChasePlayer();
         }
     }
@@ -51,11 +54,11 @@ public class EnemyAi : MonoBehaviour
     {
         policia.SetDestination(transform.position);
         transform.LookAt(player);
+
         if (!alreadyAttacked)
         {
             shooting.Play();
             Instantiate(bullet, transform.position + transform.forward *2  , transform.rotation);
-            print("atacando");
             alreadyAttacked = true;
             Invoke(nameof(ResetAttack), timeBetweenAttacks);
         }

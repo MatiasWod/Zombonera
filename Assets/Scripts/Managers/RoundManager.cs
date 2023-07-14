@@ -82,7 +82,15 @@ public class RoundManager : MonoBehaviour
         }
         else
         {
-            Instantiate(_zombies[0], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
+            int num=Random.Range(0, 2);
+            print(num);
+            if(num==0)
+                Instantiate(_zombies[0], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
+            else
+            {
+                Instantiate(_zombies[2], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
+
+            }
         }
         _zombiesSpawned++;
     }
