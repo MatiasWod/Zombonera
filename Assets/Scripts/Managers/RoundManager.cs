@@ -38,7 +38,6 @@ public class RoundManager : MonoBehaviour
 
     IEnumerator SpawnRound(int zombieCounter)
     {
-        Debug.Log("Round Started");
         _textField.text = IntToRoman(_round);
         _spawning = true;
         yield return new WaitForSeconds(5);
@@ -83,7 +82,6 @@ public class RoundManager : MonoBehaviour
         else
         {
             int num=Random.Range(0, 2);
-            print(num);
             if(num==0)
                 Instantiate(_zombies[0], _spawnPoints[spawnPostion].transform.position, _spawnPoints[spawnPostion].transform.rotation);
             else
