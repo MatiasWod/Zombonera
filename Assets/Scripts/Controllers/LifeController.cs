@@ -82,7 +82,6 @@ public class LifeController : MonoBehaviour, IDamagable
             _animator.SetBool("isDead", true);
             yield return new WaitForSeconds(3f);
         }
-
         Destroy(gameObject);
     }
 

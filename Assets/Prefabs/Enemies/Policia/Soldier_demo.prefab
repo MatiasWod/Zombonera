@@ -465,7 +465,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 64
   timeBetweenAttacks: 2
-  bullet: {fileID: 6659628778958879550, guid: b5eebe97dda162348a6c619c9b92db7b, type: 3}
+  bullet: {fileID: 6659628778958879550, guid: b3502b6ad9be1b4448b8ca8e0d65cd3f, type: 3}
   attackRange: 30
   playerInAttackRange: 0
 --- !u!114 &-1189207171448103934

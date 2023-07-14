@@ -48,10 +48,19 @@ public class Bullet : MonoBehaviour, IBullet
     #region UNITY_EVENTS
     void Start() 
     {
-        // Rename a BulletDamage
-        _damage = _owner.Damage;
-        // Agregar BulletSpeed en stats
-        _speed = _owner.BulletSpeed;
+        if(_owner != null)
+        {
+            // Rename a BulletDamage
+            _damage = _owner.Damage;
+            // Agregar BulletSpeed en stats
+            _speed = _owner.BulletSpeed;
+        }
+        else
+        {
+            _damage = 5;
+            _speed = 40;
+        }
+
 
     }
     

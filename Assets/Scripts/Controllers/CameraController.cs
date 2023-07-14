@@ -38,7 +38,7 @@ public class CameraController : MonoBehaviour
     public void RotateCamera(float mouseX, float mouseY)
     {
         yRotation += mouseX * sens;
-        xRotation -= mouseY * sens;
+        xRotation -= mouseY * sens / 2;
         xRotation = Mathf.Clamp(xRotation, -90f, 90f);
 
         _camera.transform.rotation = Quaternion.Euler(xRotation, yRotation, 0);
