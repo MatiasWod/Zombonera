@@ -11,7 +11,7 @@ public class LifeController : MonoBehaviour, IDamagable
     #region I_DAMAGABLE_PROPERTIES
     public float CurrentLife => _currentLife;
     private Animator _animator;
-    private Enemies _movement;
+    private IEnemy _movement;
     [SerializeField] private float _currentLife;
     [SerializeField] private Slider healthBar;
     private bool _isAnimatorNotNull;
@@ -26,7 +26,10 @@ public class LifeController : MonoBehaviour, IDamagable
         _currentLife = MaxLife;
         _animator = GetComponent<Animator>();
         _movement = GetComponent<Enemies>();
-
+        if(_movement == null)
+        {
+            _movement = GetComponent<EnemyAi>();
+        }
     }
     #endregion
 

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemies : MonoBehaviour
+public class Enemies : MonoBehaviour, IEnemy
 {
     enum EnemyBehaviourStates
     {

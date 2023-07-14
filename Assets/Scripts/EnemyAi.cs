@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-public class EnemyAi : MonoBehaviour
+public class EnemyAi : MonoBehaviour, IEnemy
 {
 
     public NavMeshAgent policia;
@@ -21,12 +21,15 @@ public class EnemyAi : MonoBehaviour
 
     public bool playerInAttackRange;
 
+    private AudioSource _death_sound_source;
+
     private void Awake()
     {
         player = GameObject.Find("Character").transform;
         policia = GetComponent<NavMeshAgent>();
         shooting = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
+        _death_sound_source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -69,6 +72,13 @@ public class EnemyAi : MonoBehaviour
         alreadyAttacked = false;
     }
 
+    public void Stop()
+    {
+        policia.isStopped = true;
+        policia.speed = 0;
+        GetComponent<Collider>().enabled = false;
+        _death_sound_source.Play();
+    }
 
     private void DestroyEnemy()
     {
