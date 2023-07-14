@@ -462,6 +462,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   policia: {fileID: 5120050346634712848, guid: 7c2e5ab290855564aa0453904a7ac91a, type: 3}
+  shooting: {fileID: -9221337573142627814}
   player: {fileID: 0}
   whatIsPlayer:
     serializedVersion: 2
@@ -470,6 +471,7 @@ MonoBehaviour:
   bullet: {fileID: 6659628778958879550, guid: b3502b6ad9be1b4448b8ca8e0d65cd3f, type: 3}
   attackRange: 30
   playerInAttackRange: 0
+  _death_sound_source: {fileID: 974394951303595056}
 --- !u!114 &-1189207171448103934
 MonoBehaviour:
   m_ObjectHideFlags: 0

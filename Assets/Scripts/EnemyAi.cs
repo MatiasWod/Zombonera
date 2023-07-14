@@ -7,7 +7,7 @@ public class EnemyAi : MonoBehaviour, IEnemy
 {
 
     public NavMeshAgent policia;
-    private AudioSource shooting;
+    public AudioSource shooting;
     private Animator animator;
 
     public Transform player;
@@ -21,15 +21,15 @@ public class EnemyAi : MonoBehaviour, IEnemy
 
     public bool playerInAttackRange;
 
-    private AudioSource _death_sound_source;
+    public AudioSource _death_sound_source;
+
+    
 
     private void Awake()
     {
         player = GameObject.Find("Character").transform;
         policia = GetComponent<NavMeshAgent>();
-        shooting = GetComponent<AudioSource>();
         animator = GetComponent<Animator>();
-        _death_sound_source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -74,10 +74,11 @@ public class EnemyAi : MonoBehaviour, IEnemy
 
     public void Stop()
     {
+        _death_sound_source.Play();
         policia.isStopped = true;
         policia.speed = 0;
         GetComponent<Collider>().enabled = false;
-        _death_sound_source.Play();
+        
     }
 
     private void DestroyEnemy()

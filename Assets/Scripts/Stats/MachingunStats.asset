@@ -15,6 +15,6 @@ MonoBehaviour:
   _stats:
     BulletPrefab: {fileID: 6659628778958879550, guid: b5eebe97dda162348a6c619c9b92db7b, type: 3}
     BulletSpeed: 150
-    Damage: 3
+    Damage: 8
     MaxBulletCount: 35
     ShotCooldown: 0.4

@@ -82,8 +82,17 @@ public class LifeController : MonoBehaviour, IDamagable
         if (_animator != null)
         {
             _movement.Stop();
-            _animator.SetBool("isDead", true);
-            yield return new WaitForSeconds(3f);
+            
+            if (GetComponent<EnemyAi>()==null)
+            {
+                _animator.SetBool("isDead", true);
+                yield return new WaitForSeconds(3f);
+            }
+            else
+            {
+                yield return new WaitForSeconds(0.5f);
+            }
+
         }
         Destroy(gameObject);
     }
