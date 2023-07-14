@@ -19,6 +19,8 @@ public class Bullet : MonoBehaviour, IBullet
     public float Speed => _speed;
     public float LifeTime => _lifetime;
 
+    public int rng;
+
     public Vector3 direction => _direction;
     #endregion
 
@@ -29,9 +31,14 @@ public class Bullet : MonoBehaviour, IBullet
     public void OnCollisionEnter(Collision collision)
     {
             IDamagable damagable = collision.gameObject.GetComponent<IDamagable>();
-            if (damagable != null)
+            rng = Random.Range(0,10);
+            if (damagable != null && rng != 1)
             {
                 EventQueueManager.instance.AddEvent(new CmdApplyDamage(damagable, _damage));
+            }
+            else if (damagable != null && rng == 1)
+            {
+                EventQueueManager.instance.AddEvent(new CmdApplyDamage(damagable, _damage + 20));
             }
             Destroy(this.gameObject);
        
